@@ -1,94 +1,22 @@
-name: Lighting API
-description: A comprehensive API for controlling and managing lighting systems, including smart bulbs, fixtures, and lighting scenes
-image: https://example.com/images/lighting-api-logo.png
-url: https://api.lighting.example.com
-created: '2024-01-15'
-modified: '2024-01-15'
-apis:
-- name: Lighting Control API
-  description: Core API for controlling individual lights and lighting groups
-  image: https://example.com/images/lighting-control.png
-  humanUrl: https://docs.lighting.example.com/control
-  baseUrl: https://api.lighting.example.com/v1
-  version: '1.0'
-  tags:
-  - lighting
-  - smart home
-  - IoT
-  - automation
-  - bulbs
-  properties:
-  - type: Documentation
-    url: https://docs.lighting.example.com/control
-  - type: OpenAPI
-    url: https://api.lighting.example.com/openapi.yaml
-  - type: Swagger
-    url: https://api.lighting.example.com/swagger
-  - type: Authentication
-    url: https://docs.lighting.example.com/authentication
-  contact:
-  - type: Email
-    url: mailto:api-support@lighting.example.com
-  - type: Support
-    url: https://support.lighting.example.com
-  - type: Twitter
-    url: https://twitter.com/lightingapi
-- name: Lighting Scenes API
-  description: API for creating, managing, and activating lighting scenes and presets
-  image: https://example.com/images/lighting-scenes.png
-  humanUrl: https://docs.lighting.example.com/scenes
-  baseUrl: https://api.lighting.example.com/v1/scenes
-  version: '1.0'
-  tags:
-  - scenes
-  - presets
-  - automation
-  - ambiance
-  properties:
-  - type: Documentation
-    url: https://docs.lighting.example.com/scenes
-  - type: OpenAPI
-    url: https://api.lighting.example.com/scenes/openapi.yaml
-- name: Lighting Schedule API
-  description: API for scheduling automated lighting changes based on time, events, or conditions
-  image: https://example.com/images/lighting-schedule.png
-  humanUrl: https://docs.lighting.example.com/schedule
-  baseUrl: https://api.lighting.example.com/v1/schedules
-  version: '1.0'
-  tags:
-  - scheduling
-  - automation
-  - timers
-  - triggers
-  properties:
-  - type: Documentation
-    url: https://docs.lighting.example.com/schedule
-  - type: OpenAPI
-    url: https://api.lighting.example.com/schedules/openapi.yaml
-common:
-- type: Portal
-  url: https://developer.lighting.example.com
-- type: Authentication
-  url: https://docs.lighting.example.com/authentication
-- type: Status
-  url: https://status.lighting.example.com
-- type: Pricing
-  url: https://lighting.example.com/pricing
-- type: Terms of Service
-  url: https://lighting.example.com/terms
-- type: Privacy Policy
-  url: https://lighting.example.com/privacy
-- type: Rate Limits
-  url: https://docs.lighting.example.com/rate-limits
-maintainers:
-- name: Lighting API Team
-  email: api-team@lighting.example.com
-  url: https://lighting.example.com/team
-  twitter: lightingapi
+aid: lighting
+name: Lighting
+description: >-
+  Lighting covers the technologies, standards, and APIs related to controlling
+  smart lighting systems, connected bulbs, fixtures, and lighting automation
+  in home and commercial environments.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- lighting
-- smart home
-- IoT
-- automation
-- home automation
-- connected devices
+  - Lighting
+  - Smart Home
+  - IoT
+  - Automation
+url: https://raw.githubusercontent.com/api-evangelist/lighting/refs/heads/main/apis.yml
+created: '2024-01-15'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis: []
+common: []
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
