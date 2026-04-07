@@ -7,10 +7,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Automation
+  - IoT
   - Lighting
   - Smart Home
-  - IoT
-  - Automation
 url: https://raw.githubusercontent.com/api-evangelist/lighting/refs/heads/main/apis.yml
 created: '2024-01-15'
 modified: '2026-03-16'
